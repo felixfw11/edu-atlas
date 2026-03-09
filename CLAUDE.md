@@ -29,7 +29,7 @@ edu-atlas-primary/
 │   ├── key-points.md            # 重难点速查
 │   ├── common-mistakes.md       # 易错点清单
 │   └── ...                      # 更多索引视图
-├── K{N}-{name}/                 # 阶段目录
+├── K{N}-{name}/                 # 小学阶段目录（K0 幼小衔接，K1-K6 一至六年级）
 │   ├── README.md                # 该阶段总览（阶段入口）
 │   ├── navigation/              # 导航文件（全景路线图等宏观导航内容）
 │   │   └── ...
@@ -42,6 +42,10 @@ edu-atlas-primary/
 │   └── delivery/                # 飞书交付生成物（Git 忽略）
 │       ├── images/              # Mermaid 渲染的 PNG 图片
 │       └── feishu-ready/        # 预处理后的 Markdown
+├── J{N}-grade{7-9}-s{1,2}/      # 初中阶段目录（J1-J3 七至九年级，远期规划）
+│   └── ...                      # 结构同小学阶段
+├── S{N}-grade{10-12}-s{1,2}/    # 高中阶段目录（S1-S3 高一至高三，远期规划）
+│   └── ...                      # 结构同小学阶段
 └── ...
 ```
 
@@ -58,7 +62,7 @@ edu-atlas-primary/
 ```yaml
 ---
 title: "文档标题"
-stage: "K0"              # K0, K1-s1, K1-s2, ..., K6-s2
+stage: "K0"              # K0, K1-s1, ..., K6-s2, J1-s1, ..., J3-s2, S1-s1, ..., S3-s2
 subject: "math"          # 学科标识
 unit: 1                  # 单元编号
 tags: ["数感启蒙", "计算技巧"]  # 用于跨阶段功能检索
