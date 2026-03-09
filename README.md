@@ -1,10 +1,10 @@
-# edu-atlas-primary（成品库）
+# edu-atlas
 
 EduAtlas 项目的结构化内容产品仓库。
 
 ## 项目定位
 
-本仓库是 EduAtlas 双仓库架构中的**成品库（Product Repo）**，负责：
+本仓库负责：
 
 1. **内容存储**：经过校验的 `.md` 与 `.mmd` 结构化知识文件
 2. **分级管理**：按阶段（K0 + K1-s1 至 K6-s2，共 13 个）组织内容
@@ -13,7 +13,7 @@ EduAtlas 项目的结构化内容产品仓库。
 ## 目录结构
 
 ```
-edu-atlas-primary/
+edu-atlas/
 ├── CLAUDE.md                 # Claude Code 系统指引
 ├── README.md                 # 本文件
 ├── docs/                     # 项目文档
@@ -43,7 +43,7 @@ edu-atlas-primary/
 
 ## 内容规范
 
-所有内容文件须遵循 [edu-atlas-core](https://github.com/felixfw1990/edu-atlas-core) 中定义的：
+所有内容文件须遵循统一的：
 
 - Markdown 样式标准
 - YAML 元数据规范
@@ -58,6 +58,10 @@ edu-atlas-primary/
 | 重大调整 | 创建新分支（如 `v0.2.0`），旧分支保留不删除 |
 | 版本号格式 | `v主版本.里程碑.补丁`（语义化版本） |
 
-## 关联仓库
+## 支持项目
 
-- **规则库**：[edu-atlas-core](https://github.com/felixfw1990/edu-atlas-core) — 存放 Prompt 模板、规范定义和自动化工具
+如果本项目对你有帮助，欢迎自愿打赏支持：
+
+| 微信收款码 | 支付宝收款码 |
+|:---:|:---:|
+| <img src="other/wechat_payment_code.jpeg" width="200"> | <img src="other/alipay_payment_code.jpeg" width="200"> |
