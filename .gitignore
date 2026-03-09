@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build output
+dist/
+build/
+output/
+
+# Temporary files
+*.tmp
+
+# 飞书交付生成物（脚本可重新生成，不纳入版本控制）
+**/delivery/
