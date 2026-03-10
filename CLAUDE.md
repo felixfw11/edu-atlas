@@ -22,7 +22,7 @@
 ## 目录结构
 
 ```
-edu-atlas-primary/
+edu-atlas/
 ├── OVERVIEW.md                  # 全览地图入口
 ├── indexes/                     # 多视角索引目录
 │   ├── by-subject.md            # 按学科索引
@@ -39,9 +39,8 @@ edu-atlas-primary/
 │   │   ├── math/                # 数学
 │   │   ├── practical/           # 实用准备
 │   │   └── ...                  # 其他模块
-│   └── delivery/                # 飞书交付生成物（Git 忽略）
-│       ├── images/              # Mermaid 渲染的 PNG 图片
-│       └── feishu-ready/        # 预处理后的 Markdown
+│   └── delivery/                # 交付生成物（Git 忽略）
+│       └── images/              # Mermaid 渲染的 PNG 图片
 ├── J{N}-grade{7-9}-s{1,2}/      # 初中阶段目录（J1-J3 七至九年级，远期规划）
 │   └── ...                      # 结构同小学阶段
 ├── S{N}-grade{10-12}-s{1,2}/    # 高中阶段目录（S1-S3 高一至高三，远期规划）
@@ -53,7 +52,7 @@ edu-atlas-primary/
 - `navigation/` 放宏观导航类文件（如全景路线图），帮用户建立全局视野
 - `content/` 下按模块细分子目录，放具体知识点和指导内容
 - `indexes/` 放跨阶段索引文件，通过链接聚合不同阶段的内容
-- `delivery/` 放飞书交付生成物（Mermaid PNG + 预处理 Markdown），已被 `.gitignore` 排除
+- `delivery/` 放交付生成物（Mermaid PNG 等），已被 `.gitignore` 排除
 
 ## 文件头 YAML 元数据
 

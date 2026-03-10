@@ -40,9 +40,8 @@ K0-preschool/
 │   ├── chinese/             # 语文启蒙（拼音、识字、阅读）
 │   ├── math/                # 数学启蒙（凑十破十、数感、图形）
 │   └── practical/           # 入学实用准备（物品清单、第一周指南）
-└── delivery/                # 飞书交付生成物（Git 忽略，脚本可重新生成）
-    ├── images/              # Mermaid 渲染的 PNG 图片
-    └── feishu-ready/        # 预处理后的 Markdown（剥离 YAML、替换 Mermaid）
+└── delivery/                # 交付生成物（Git 忽略）
+    └── images/              # Mermaid 渲染的 PNG 图片
 ```
 
 ## 3. 内容目录
